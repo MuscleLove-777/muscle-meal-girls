@@ -72,6 +72,18 @@
     <hr style="border-color:var(--border); margin:2rem 0;">
     <a href="../index.html" class="back-link">← トップに戻る</a>
   </div>
+<!-- ML_PROMO_CARD_START -->
+<section style="max-width:800px;margin:32px auto;padding:0 20px;">
+  <div style="background:#111827;border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:24px;text-align:center;">
+    <p style="margin:0 0 6px;color:#f0f0f5;font-weight:800;">MuscleLove 公式</p>
+    <p style="margin:0 0 14px;color:#9ca3af;font-size:0.9rem;">最新情報・限定コンテンツはこちら</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+      <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#1d9bf0;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">X @MuscleGirlLove7</a>
+      <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#ff424d;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">Patreon 限定コンテンツ</a>
+    </div>
+  </div>
+</section>
+<!-- ML_PROMO_CARD_END -->
 </body>
 </html>
 ```
@@ -83,6 +95,7 @@
 - **文字数**: 200〜400文字（本文のみ）
 - **トーン**: 実用的で親しみやすい。筋トレ女子の友達に話すような感じ
 - **画像**: 必ずUnsplash画像をヒーロー画像として使用（`?w=800&h=400&fit=crop`付き）
+- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める
 
 ### PFC情報の書き方
 レシピ記事には必ず以下を含める：
